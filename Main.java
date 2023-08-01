@@ -8,3 +8,9 @@ public class Main {
     System.out.println(x * x * 3.14);
   }
 }
+
+// 単一行コメント
+/* 複数行コメント
+  コメント
+  comment
+*/
