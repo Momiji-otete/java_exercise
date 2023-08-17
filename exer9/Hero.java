@@ -3,6 +3,17 @@ public class Hero {
   int hp;
   Sword sword;
   
+  //コンストラクタの定義
+  //引数ありver.
+  public Hero(String name) {
+    this.hp = 100;
+    this.name = name;
+  }
+  //引数なしver.
+  public Hero() {
+    this("ダミー");
+  }
+  
   public void sleep() {
     this.hp = 100;
     System.out.println(this.name + "は、眠って回復した！");

@@ -3,15 +3,11 @@ public class Main {
     Sword s = new Sword();
     s.name = "炎の剣";
     s.damage = 8;
-    Hero h1 = new Hero();
-    h1.name = "otete";
-    h1.hp = 100;
+    Hero h1 = new Hero("otete");
     h1.sword = s;
     System.out.println("現在の武器は" + h1.sword.name);
     h1.attack();
-    Hero h2 = new Hero();
-    h2.name = "おてて";
-    h2.hp = 100;
+    Hero h2 = new Hero("おてて");
     Wizard w = new Wizard();
     w.name = "おteて";
     w.hp = 50;
