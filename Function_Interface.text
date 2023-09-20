@@ -1,0 +1,8 @@
+/*
+関数型インタフェースの特徴
+
+Consumer<T>  | void accept(T)  | 引数を受け取って処理をする。結果を戻さない、引数の「消費者」
+Supplier<T>  | T get()         | 引数を受け取らずに結果だけを戻す「供給者」
+Predicate<T> | boolean test(T) | 引数を受け取ってそれを評価する「断定」
+Function<T,R>| R apply(T)      | 引数を受け取って、指定された型(R)の結果を戻す「処理」
+*/
